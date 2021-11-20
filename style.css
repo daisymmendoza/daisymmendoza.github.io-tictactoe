@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    background-image: linear-gradient(to right, rgb(223, 188, 93), #ea983f, #ed1c24);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #ed1c24;
+    text-shadow: 2px 2px rgb(173, 26, 26);
+}
+
+#turn {
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+
+.squares {
+    display: grid;
+    grid-template-areas: 
+    "tl tm tr"
+    "ml mm mr"
+    "bl bm br";
+    justify-content: center;
+}
+
+.tl {
+    grid-area: tl;
+    background-color: rgb(173, 26, 26);
+    /* margin-right: 13px; */
+    /* border: none; */
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-right: rgb(240, 129, 26) 3px solid;
+    border-bottom:  rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.tm {
+    grid-area: tm;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-right: rgb(240, 129, 26) 3px solid;
+    border-bottom:  rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.tr {
+    grid-area: tr;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-bottom:  rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.ml {
+    grid-area: ml;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-right: rgb(240, 129, 26) 3px solid;
+    border-bottom:  rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.mm {
+    grid-area: mm;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-right: rgb(240, 129, 26) 3px solid;
+    border-bottom:  rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.mr {
+    grid-area: mr;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-bottom:  rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.bl {
+    grid-area: bl;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-right: rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.bm {
+    grid-area: bm;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-right: rgb(240, 129, 26) 3px solid;
+    font-size: 4em;
+    color: white;
+}
+
+.br {
+    grid-area: br;
+    background-color: rgb(173, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: none;
+    font-size: 4em;
+    color: white;
+}
+
+.restart {
+    background-color: #e9353b;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 32px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
